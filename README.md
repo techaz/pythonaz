@@ -44,5 +44,5 @@ Sisteminizi hər şeydən əvvəl internetə qoşun əks halda xəta ilə qarş�
 
 
 
-write me contact mail pythonaz@yahoo.com or my blog - http://techazweb.wordpress.com
-                                                      https://www.facebook.com/rashad.garayev
+contact mail pythonaz@yahoo.com or my blog - http://techazweb.wordpress.com
+                                              https://www.facebook.com/rashad.garayev
