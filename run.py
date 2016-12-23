@@ -92,6 +92,7 @@ class gui():
 			self.toplevel_gmail=Toplevel()
 			self.toplevel_gmail.title('Sendmail')
 			self.toplevel_gmail.geometry('700x800')
+			self.toplevel_gmail.resizable(width=False, height=False)
 			self.img=PhotoImage(file="sms.png")
 
 
@@ -148,6 +149,7 @@ class gui():
 			self.toplevel_live=Toplevel()
 			self.toplevel_live.title('Sendmail')
 			self.toplevel_live.geometry('700x800')
+			self.toplevel_live.resizable(width=False, height=False)
 			self.img=PhotoImage(file="sms.png")
 
 			try:
@@ -207,6 +209,7 @@ class gui():
 			self.toplevel_yahoo=Toplevel()
 			self.toplevel_yahoo.title('Sendmail')
 			self.toplevel_yahoo.geometry('700x800')
+			self.toplevel_yahoo.resizable(width=False, height=False)
 			self.img=PhotoImage(file="sms.png")
 
 			try:
@@ -262,6 +265,7 @@ class gui():
 			self.label_mail=Label(self.toplevel_yahoo,text='pythonaz@yahoo.com'\
 			,fg='#4F4F9E')
 			self.label_mail.place(relx=0.08,rely=0.93)
+
 		def host(self):
 			try:
 
@@ -291,6 +295,7 @@ class gui():
 
 		def gui(self):
 			# all label for root gui
+
 			self.label=Label(root,text='-'*195,fg='black')
 			self.label.place(relx=0.01,rely=0.03)
 			self.label_sosial=Label(root,text='Sosial network',fg='white')
@@ -345,6 +350,7 @@ root=Tk()
 root.title('Send-mail')
 root.geometry('800x700')
 root.tk_setPalette('#121E2A')
+root.resizable(width=False, height=False)
 termf = Frame(root,height=300, width=750)
 termf.place(relx=0.01,rely=0.55)
 wid = termf.winfo_id()
