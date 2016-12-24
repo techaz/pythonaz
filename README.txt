@@ -1,4 +1,13 @@
-1. First run python install.py
-2. setup.sh file automatic installed you system, python-image-tk module and xterm
+cd /usr/share
+/usr/share~$ git clone https://github.com/techaz/pythonaz.git     # or sudo git clone https://github.com/techaz/pythonaz.git
+$ cd pythonaz
+$ sudo chmod +x pythonaz
+$ ls
+$ info.html   info.png    README.txt  setup.sh
+ install.py  run.py      sms.png
+First run python install.py
+$ python install.py
+
+setup.sh file automatic installed you system, python-image-tk module and xterm
 
 
